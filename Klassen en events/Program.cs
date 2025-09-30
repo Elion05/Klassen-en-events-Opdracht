@@ -18,6 +18,7 @@ namespace Klassen_en_events
             Tijdschrift tijdschrift2 = new Tijdschrift("113", "Daily News", "News Corp", 2, Verschijningsperiode.Dagelijks);
 
             List<Boek> items = new List<Boek> { boek1, boek2, boek3, boek4, tijdschrift1, tijdschrift2 , tijdschrift3, tijdschrift4};
+            //List<Tijdschrift> tijdschriftitem = new List<Tijdschrift>(tijdschrift1, tijdschrift2, tijdschrift3, tijdschrift4); Ik heb mezelfmakkelijk gemaakt en dit niet geschreven omdat het makkelijker was om te schrijven
             
 
             Console.WriteLine("Beschikbare items zijn: ");
